@@ -9,5 +9,5 @@ PS :
 
 The files that contain the code for the application will be found in the 'lib' directory.
 
-A video that demonstrates the functionalities of the mobile application will be found in the directory 'assets'.
+A video that demonstrates the functionalities of the mobile application will be found in the 'assets' directory .
 
