@@ -1,16 +1,7 @@
-# quotes
+# Domov
 
-A new Flutter project.
+## Description of the application
 
-## Getting Started
+This Flutter project is for a mobile application UI tailored to facilitate remote control of a smart switch.
+The application is designed to provide users with seamless interaction and management capabilities over their smart switch devices.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
