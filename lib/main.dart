@@ -49,24 +49,25 @@ class Intro extends StatelessWidget {
           Positioned(
             bottom: 75,
               right:20,
-                child: GestureDetector(
-                  onTap: (){
-                    Navigator.push(
-                        context,
-                        MaterialPageRoute(builder: (context)=> Home())
-                    );
-                  },
-                  child: Container(
-                    height: 37,
-                    width: 113,
-                  decoration: BoxDecoration(
-                    color: Color(0xFF727B7A).withOpacity(0.5),
-                    borderRadius: BorderRadius.circular(15),
+                  child: ElevatedButton(
+                  onPressed: (){Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context)=> Home())
+                  );},
+                  child: Text(
+                    'Start now',
+                    style : TextStyle (
+                      fontSize: 16,
+                      fontWeight: FontWeight.w500,
+                      color : Colors.white
+                    ),
                   ),
-                  child: Image.asset("assets/Arrow 1.png"),
+                    style: ButtonStyle(
+                      backgroundColor: MaterialStateProperty.all<Color>(Color(0xFF58E2AF)), // Change this to your desired background color
+
+                  ),
                   ),
                 ),
-              ),
         ],
       ),
     );
